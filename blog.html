@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Design</title>
+    <link rel="stylesheet" href="admission .css.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Supermercado+One&family=Tiro+Devanagari+Sanskrit:ital@0;1&family=Tiro+Gurmukhi:ital@0;1&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hiddenMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Our Certificate & Online Programs for 2021</h1>
+    </section>
+    <!-- ---blog page content-- -->
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="certificate.jpg" />
+          <h2>Our Certificate & Online Programs for 2021</h2>
+          <p>
+            EduFord is also home to scholars from different part of the country. It aims to develop an environment which is focused towards the development of skills, knowledge and research to prepare the students for their future endeavours.
+          </p>
+          <br />
+          <p>
+            The strong Industry-academia linkages forged by Teerthanker Mahaveer University, and excellent job-oriented courses are tailored to meet the growing and ever-changing needs of the industry thus, drawing among some of the biggest corporate names across the nation. The recruitment drive has seen student’s participation from all departments and courses - Engineering, Management, Nursing, Physiotherapy, Arts, Agriculture, Law and sciences.
+          </p>
+          <br />
+          <p>
+            EduFord offers a potent interface between student and industry by organizing regular industry visits like recent visit to Bisleri, Yakult, Barclays, Coca Cola, Mother-Dairy and many more which helps students gain practical insight on manufacturing, operations, and management.
+          </p>
+          <br />
+          <p>
+            “An investment in knowledge pays the best interest” and making this their mantra, EduFord constantly focuses to improve and update themselves with the changing times and empower their students by facilitating mobility across disciplines as per their inclination, aptitude and at the same time fostering quality research.
+          </p>
+          <div class="comment-box">
+                <h3>Leave a Comment</h3>
+                <form class="comment-form">
+                      <input type="text" placeholder="Enter Name">
+                      <input type="email" placeholder="Enter Email">
+                      <textarea rows="5" placeholder="Your Comment"></textarea>
+                      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                </form>
+          </div>
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+          <div>
+            <span>Bussiness Analytics</span>
+            <span>21</span>
+          </div>
+          <div>
+            <span>Data Science</span>
+            <span>28</span>
+          </div>
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+          <div>
+            <span>AutoCad</span>
+            <span>42</span>
+          </div>
+          <div>
+            <span>History</span>
+            <span>22</span>
+          </div>
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---Footer-- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        To ignite career dreams of younger generation being groomed in the university through a structured intervention in the form of a scientifically develop Personality Development Program incorporating career guidance, social sensitivity issues & latest corporate practices by an appropriate mix of different pedagogues.
+      </p>
+      <div class="icons">
+        <a href="https://www.facebook.com/profile.php?id=100012163990032">
+          <i class="fa fa-facebook"></i>   
+        </a>
+        <a href="https://twitter.com/home">
+
+          <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.instagram.com/">
+
+          <i class="fa fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/arun-singh-1a0b25225">
+
+          <i class="fa fa-linkedin"></i>
+        </a>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i>Dhwani Panchal </p>
+    </section>
+    <!-- ---JavaScript for Toggle  Menu-- -->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hiddenMenu() {
+        navLinks.style.right = "-260px";
+      }
+    </script>
+  </body>
+</html>
